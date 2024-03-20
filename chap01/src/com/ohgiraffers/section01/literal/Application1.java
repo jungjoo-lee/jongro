@@ -1,7 +1,6 @@
-package com.ohgiraffers.section.literal;
+package com.ohgiraffers.section01.literal;
 
 public class Application1 {
-
     public static void main(String[] args){
 
         /* 수업목표. 여러 가지의 값의 형태를 출력할 수 있다. */
@@ -31,8 +30,5 @@ public class Application1 {
         System.out.println(false); //뱀은 식물인가요? 거짓
 
         //true 혹은 false 값을 논리형이라고 한다.
-
-
-
     }
 }

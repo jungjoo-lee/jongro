@@ -1,7 +1,6 @@
-package com.ohgiraffers.section.literal;
+package com.ohgiraffers.section01.literal;
 
 public class Application2 {
-
     public static void main(String[] args) {
         /* 수업목표. 값을 직접 연산하여 출력할 수 있다 */
         /* 값의 형태에 따라 사용할 수 있는 연산자의 종류와 연산의 결과가 달라진다.*/
@@ -144,10 +143,6 @@ public class Application2 {
         //System.out.println(true * "a");
         //System.out.println(true / "a");
         //System.out.println(true % "a");
-
-
-
-
     }
 
 }
