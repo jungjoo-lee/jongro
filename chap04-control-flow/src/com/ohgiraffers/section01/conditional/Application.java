@@ -14,6 +14,9 @@ public class Application {
 //        b.simpleIfElseStatement();
 //        b.testNestedIfElseStatement();
         C_ifElseIf c = new C_ifElseIf();
-        c.testNestedIfElseIfStatement();
+//        c.testNestedIfElseIfStatement();
+        D_switch d = new D_switch();
+//        d.testSimpleSwitchStatement();
+        d.testSwitchVendingMachine();
     }
 }
