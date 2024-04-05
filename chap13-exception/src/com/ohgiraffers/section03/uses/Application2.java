@@ -1,0 +1,28 @@
+package com.ohgiraffers.section03.uses;
+
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+
+public class Application2 {
+    public static void main(String[] args) {
+        /*
+         * try-with-resource
+         * close 해야하는 인스턴스의 경우 try 옆에 괄호 안에서 생성하면
+         * 해당 try-catch 블럭이 완료될 때 자동으로 close 처리해준다
+         * */
+
+        try (BufferedReader br = new BufferedReader(new FileReader("./src/com/ohgiraffers/section03/uses/test.dat"))) {
+            String s;
+
+            while ((s = br.readLine()) != null) {
+                System.out.println(s);
+            }
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+}
